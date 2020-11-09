@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- style css perso -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- font awesaome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-container">
+        <div class="card">
+          <h4 class="title"><span>inscription</span> <span>neswletter</span> </h4>
+          
+          <!-- form -->
+          <form id="connect-form" action="">
+              <!-- username -->
+            <div class="form-control">
+              <label for="username">User Name</label>
+              <input id="username" type="text" class="form-username" />
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-times-circle"></i>
+              <small> </small>
+            </div>
+            <!-- email -->
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input id="email" type="text" class="form-email" />
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-times-circle"></i>
+              <small></small>
+            </div>
+            <!-- password -->
+            <div class="form-control">
+              <label for="password">Password</label>
+              <input id="password" type="password" class="form-password" />
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-times-circle"></i>
+              <small></small>
+            </div>
+            <!-- password 2 -->
+            <div class="form-control">
+                <label for="password2">Password Confirmation</label>
+                <input id="password2" type="password" class="form-password2" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-times-circle"></i>
+                <small></small>
+              </div>
+              <!-- button submit -->
+            <div class="form-control">
+              <input class="btn-submit" type="submit" value="Envoyer" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- check input form js -->
+    <script src="js/app.js"></script>
+  </body>
+</html>
